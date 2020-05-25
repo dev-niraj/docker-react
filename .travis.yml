@@ -6,4 +6,4 @@ before_install:
     - docker build -t dev-niraj/docker-react -f Dockerfile.dev .
 
 script:
-    - docker run dev-niraj/docker-react run test
+    - docker run dev-niraj/docker-react npm run test
